@@ -1,0 +1,11 @@
+{% set taxlist = children_only is defined ? taxonomylist.getChildPagesTags( children_only ) : taxonomylist.get() %}
+{% if taxlist %}
+    
+          {% for tax ,value in taxlist[taxonomy] %}
+              {% set active = uri.query(taxonomy) == tax? 'active' : '' %}
+                  <a title='{{'PLUGIN_TAXONOMYLIST.FILTER'|t}} {{value}} {{'PLUGIN_TAXONOMYLIST.PAGES'|t}} {{'PLUGIN_TAXONOMYLIST.WITH'|t}} {{ taxonomy}} "{{ tax}}"'
+                      class="tooltip tag {{ active }} weight{{value}}" 
+                     href="{{ base_url }}?{{ taxonomy }}={{ tax }}">
+                      {{ tax }} <span>{{value}}</span></a>
+          {% endfor %}
+{% endif %}

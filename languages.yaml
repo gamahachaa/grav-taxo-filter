@@ -1,0 +1,12 @@
+fr:
+    PLUGIN_TAXONOMYLIST:
+        FILTER: Filtre des
+        WITH: ayant
+        PAGES: page(s)
+        EQUAL: ''
+de:
+    PLUGIN_TAXONOMYLIST:
+        FILTER: Filter des
+        WITH: nach
+        PAGES: Seite(n)
+        EQUAL: ''
