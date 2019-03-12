@@ -1,12 +1,14 @@
 fr:
-    PLUGIN_TAXONOMYLIST:
+    PLUGIN_GRAV-TAXO-FILTER:
         FILTER: Filtre des
-        WITH: ayant
-        PAGES: page(s)
+        WITH: avec 
+        PAGES: page
+        PAGE_PLURIEL: s
         EQUAL: ''
 de:
-    PLUGIN_TAXONOMYLIST:
+    PLUGIN_GRAV-TAXO-FILTER:
         FILTER: Filter des
-        WITH: nach
-        PAGES: Seite(n)
+        WITH: mit dem
+        PAGES: Seite
+        PAGE_PLURIEL: n
         EQUAL: ''
