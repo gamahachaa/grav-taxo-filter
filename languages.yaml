@@ -5,6 +5,7 @@ fr:
         PAGES: page
         PAGE_PLURIEL: s
         EQUAL: ''
+        ALL: 'Toutes les'
 de:
     PLUGIN_GRAV-TAXO-FILTER:
         FILTER: Filter des
@@ -12,3 +13,4 @@ de:
         PAGES: Seite
         PAGE_PLURIEL: n
         EQUAL: ''
+        ALL: 'Alle '
